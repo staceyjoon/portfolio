@@ -10,8 +10,9 @@ body {
   margin-top: 100px;
   background-color: #edede9;
   color: black;
+  padding: 40px;
 }
-nav{
+nav {
   font-family: var(--second-font);
 }
 a {
@@ -32,14 +33,14 @@ h3 {
   font-family: var(--main-font);
   margin: 0;
 }
-h1{
+h1 {
   font-size: 72px;
   line-height: 2;
 }
-h2{
+h2 {
   font-size: 64px;
 }
-h3{
+h3 {
   font-size: 32px;
   line-height: 1.5;
 }
@@ -51,7 +52,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
-.contact-button {
+.contact {
   display: block;
   margin: 0 auto;
 }
@@ -63,12 +64,21 @@ p {
 .about-paragraphs {
   margin: 30px 0;
 }
-.navigation-links{
+.navigation-links {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-
+.about {
+  padding: 20px;
+  font-size: 15px;
+}
+.website {
+  background-color: #6d6a75;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+}
 button {
   background-color: #fff;
   background-image: none;
@@ -107,21 +117,23 @@ button {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
   }
-
+h3{
+  font-size: 20px;
+}
   p {
     text-align: center;
   }
 
-.website{
-  display: block;
-  margin: 0 auto;
-}
+  .website-button {
+    display: block;
+    margin: 0 auto;
+  }
 }
