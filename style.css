@@ -8,6 +8,8 @@
 }
 body {
   margin-top: 100px;
+  background-color: #edede9;
+  color: black;
 }
 nav{
   font-family: var(--second-font);
@@ -30,7 +32,17 @@ h3 {
   font-family: var(--main-font);
   margin: 0;
 }
-
+h1{
+  font-size: 72px;
+  line-height: 2;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 32px;
+  line-height: 1.5;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -53,7 +65,7 @@ p {
 }
 .navigation-links{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 40px;
 }
 
