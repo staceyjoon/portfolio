@@ -4,28 +4,71 @@
   --border: solid 1px grey;
   --main-font: "Ubuntu", sans-serif;
   --second-font: "Noto Sans Mono", monospace;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 100px;
+}
+nav{
+  font-family: var(--second-font);
+}
+.links {
+  color: black;
+  text-decoration: none;
+}
+.links:hover {
+  color: grey;
+  text-decoration: none;
+}
+.links:visited {
+  color: black;
 }
 h1,
 h2,
 h3 {
   text-align: center;
   font-family: var(--main-font);
+  margin: 0;
 }
-a {
-  text-decoration: none;
-  color: black;
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }
-a:visited {
-  color: #000000;
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .contact-button {
+  display: block;
+  margin: 0 auto;
+}
+.homepage-link {
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+.navigation-links{
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 100px;
-  flex: 2;
+  margin-top: 40px;
+}
+.launcher{
+  color: black;
+  text-decoration: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  padding: 15px;
+}
+.launcher:hover{
+  cursor: pointer;
+  color: darkgray;
 }
 button {
-  align-self: center;
   background-color: #fff;
   background-image: none;
   background-position: 0 90%;
@@ -38,13 +81,10 @@ button {
   box-sizing: border-box;
   color: #41403e;
   cursor: pointer;
-  display: flex;
-  justify-content: space-evenly;
   font-family: var(--second-font);
   font-size: 1rem;
-  line-height: 23px;
+  padding: 10px 20px;
   outline: none;
-  padding: 0.75rem;
   text-decoration: none;
   transition: all 235ms ease-in-out;
   border-bottom-left-radius: 15px 255px;
