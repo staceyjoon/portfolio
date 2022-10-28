@@ -2,13 +2,13 @@
   --color: black;
   --background: lightgrey;
   --border: solid 1px grey;
-  --main-font: "Ubuntu", sans-serif;
-  --second-font: "Noto Sans Mono", monospace;
+  --main-font: "Archivo Black", sans-serif;
+  --second-font: "Libre Baskerville", serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   margin-top: 100px;
-  background-color: #edede9;
+  background-color: #ffff;
   color: black;
   padding: 40px;
 }
@@ -51,6 +51,7 @@ p {
 .description {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: var(--second-font);
 }
 .contact {
   display: block;
@@ -74,7 +75,7 @@ p {
   font-size: 15px;
 }
 .website {
-  background-color: #6d6a75;
+  background-color: #c0d6df;
   border-radius: 20px;
   padding: 20px;
   color: white;
@@ -125,15 +126,31 @@ button {
     font-size: 28px;
     text-align: center;
   }
-h3{
-  font-size: 20px;
-}
+  h3 {
+    font-size: 20px;
+  }
   p {
     text-align: center;
+    font-family: var(--second-font);
   }
 
   .website-button {
     display: block;
     margin: 0 auto;
   }
+}
+li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+span {
+  padding-right: 20px;
+  font-size: 25px;
+}
+i {
+  color: cornflowerblue;
 }
