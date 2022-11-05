@@ -35,7 +35,6 @@ h3 {
 }
 h1 {
   font-size: 72px;
-  line-height: 2;
 }
 h2 {
   font-size: 64px;
@@ -47,15 +46,25 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--second-font);
 }
 .description {
   margin-left: 20px;
   margin-right: 20px;
   font-family: var(--second-font);
 }
-.contact {
-  display: block;
-  margin: 0 auto;
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  text-align: center;
+  font-size: large;
+  font-family: var(--second-font);
 }
 .homepage-link {
   text-align: center;
@@ -123,6 +132,7 @@ button {
   }
 
   h2 {
+    padding-top: 20px;
     font-size: 28px;
     text-align: center;
   }
@@ -140,17 +150,30 @@ button {
   }
 }
 li {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 5px;
 }
-.contact-box {
-  display: flex;
-  justify-content: center;
-}
+
 span {
   padding-right: 20px;
   font-size: 25px;
 }
 i {
-  color: cornflowerblue;
+  color: #00a7e1;
+  font-size: 25px;
+}
+footer {
+  margin: 60px 0;
+}
+
+img{
+  max-width: 50%;
+}
+#media{
+  padding: 20px;
+}
+.my-box{
+  border: solid 1px #00171f;
+  background-color: #eff6eo;
+  border-radius: 35px;
+  padding-top: 30px;
 }
